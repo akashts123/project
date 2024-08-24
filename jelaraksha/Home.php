@@ -1,6 +1,6 @@
 <?php
 session_start();
-include "adminHeader.php";
+include "userHeader.php";
 include "connection.php";
 $uid = $_SESSION['uid'];
 $uname = $_SESSION['uname'];

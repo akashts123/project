@@ -62,7 +62,7 @@ if (isset($_POST['submit'])) {
             echo "<script>window.location.href='Home.php';</script>";
         } else if ($row['usertype'] == 'Public') {
             echo "<script>alert('Login Successful');</script>";
-            echo "<script>window.location.href='userHome.php';</script>";
+            echo "<script>window.location.href='Home.php';</script>";
         }
     } else {
         echo "<script>alert('Login Failed');</script>";
